@@ -24,8 +24,6 @@ fun main(args: Array<String>) {
     val myAnimal = "Shark"
 
     println(myPet.length)
-    println(myName.capitalize())
-    println(myAnimal.decapitalize())
     println(myPet.get(3))
     println(myPet[3])
     println(myPet.substring(3))
