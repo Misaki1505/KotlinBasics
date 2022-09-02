@@ -14,4 +14,11 @@ fun main(args: Array<String>) {
 
     colors.removeAt(1)
     println(colors)
+
+    val numbers = setOf(6, 37, 6, 42)
+    println(numbers)
+    //Set of stores unique elements in an undefined order
+
+
+
 }
