@@ -18,7 +18,4 @@ fun main(args: Array<String>) {
     val numbers = setOf(6, 37, 6, 42)
     println(numbers)
     //Set of stores unique elements in an undefined order
-
-
-
 }
