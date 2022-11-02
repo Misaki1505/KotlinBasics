@@ -1,6 +1,5 @@
 package com.example.helloworldkotlin
 
-import java.security.KeyStore
 
 fun main(args: Array<String>) {
     val haveCat = true
@@ -9,5 +8,10 @@ fun main(args: Array<String>) {
         println("Cat is happy")
     } else {
         println("Oh no!")
+    }
+
+    val animals = arrayListOf<String>()
+    if (animals.isEmpty()) {
+        animals.add("dog")
     }
 }
